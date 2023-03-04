@@ -1,0 +1,133 @@
+@use '../variables'
+
+#container
+    position: absolute
+    width: 1280px
+    height: 144px
+    left: 86px
+    top: 0px
+    border: 1px solid green
+
+
+#heading
+    position: absolute
+    display: flex
+    justify-content: center
+    gap: 9rem
+    width: 1280px
+    height: 32px
+
+    p
+        display: flex
+        align-items: center  
+        justify-content: center
+        gap: 10px
+
+        font-family: 'Poppins'
+        font-style: normal
+        font-weight: 600
+        font-size: 12px
+        line-height: 18px
+        text-align: center
+        color: variables.$text-color
+
+#header-main
+    position: absolute
+    display: flex
+    width: 1280px
+    height: 72px
+    top: 32px
+    justify-content: space-between
+    border-top: 1px solid #F0F0F0
+    border-bottom: 1px solid #F0F0F0
+    padding: 12px 60px
+
+    #searchbar
+        display: flex
+        flex-direction: row
+        align-items: center
+        
+        width: 657px
+        height: 48px
+        background: #F7F5F2
+        border-radius: 10px
+        border: #F7F5F2
+
+        input
+            width: 100%
+            background: none
+            border: 0
+            padding: 14px 24px
+            
+
+        #lupa
+            justify-content: center
+            margin: 20px
+            align-items: center
+            width: 1.2rem
+            height: 1.2rem
+            top: 6px
+            left: 3.5px
+
+    ul
+        display: flex
+        gap: 2.63rem
+        list-style: none
+        align-items: center
+
+        li
+            align-content: center
+            height: 22px
+            width: 25px
+            left: 20.5px
+            top: 23px
+            border-radius: 0px
+            color: variables.$text-color
+            
+            
+            
+
+#search
+    padding-top: 0.44rem
+    width: 1280px
+    height: 72px
+    top: 32px
+    align-items: center
+    justify-content: center
+    border-top: 1px solid #F0F0F0        
+
+
+
+#category
+    display: flex
+    position: absolute
+    flex-direction: row
+    justify-content: center
+    gap: 5.7rem
+    top: 104px
+    width: 1280px
+    height: 40px
+    border: 1px solid variables.$border-color
+    box-shadow: 0px 8px 16px rgba(57, 48, 19, 0.12)
+
+    p
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+        padding: 0px
+        gap: 91px
+        left: 56px
+        top: 114px
+      
+
+        font-family: 'Poppins'
+        font-style: normal
+        font-weight: 600
+        font-size: 12px
+        line-height: 18px
+        text-transform: uppercase
+        color: #9F9F9F
+
+    #crow
+        gap: 13.2px
