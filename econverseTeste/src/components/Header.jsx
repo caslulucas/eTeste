@@ -29,7 +29,7 @@ export function Header() {
 			<div id='header-main'>
 				<Logo />
 				<div id='searchbar'>
-					<input type='text' placeholder='O que você está buscando?' />
+					<input type='text' placeholder='O que você está buscando?'  /> 
 					<div id='lupa'><SearchIcon /></div>
 				</div>
 				<ul>

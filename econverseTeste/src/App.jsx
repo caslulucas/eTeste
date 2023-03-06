@@ -1,6 +1,7 @@
 import { Category } from "./components/Category"
 import { Header } from "./components/Header"
 import { NavProduct } from "./components/NavProduct"
+import { TitleMain } from "./components/TitleMain"
 
 import "./styles/components/app.sass"
 
@@ -14,13 +15,21 @@ function App() {
   return (
     <div id="aplication">
       <Header />
-      <Promotion />
+     <Promotion />
       <Category />
+      <TitleMain />
       <NavProduct />
       <Produto />
       <Colaborators/>
+
+      <TitleMain />
+      <Produto />
+      <Colaborators/>
       <Marks />
-      <Footer />
+
+      <TitleMain />
+      <Produto />
+      <Footer />    
     </div>
   )
 }

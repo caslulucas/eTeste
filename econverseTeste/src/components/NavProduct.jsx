@@ -1,12 +1,11 @@
 import "../styles/components/navproduct.sass"
-import { TitleMain } from "./TitleMain"
+
 
 
 export function NavProduct () {
     return (
         
         <div id="container-main">
-            <TitleMain />
             <div id="product-list">
                 <p>celular</p>
                 <p>acessórios</p>

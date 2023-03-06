@@ -13,46 +13,45 @@ export function Category() {
 
             <div id="box-category">
                < IconTecnologie/> 
+               <p>Tecnologia</p>
             </div>
-            <p>Tecnologia</p>
+            
 
             <div id="box-category">
                < IconSupermarket/> 
+               <p>Supermercadp</p>
             </div>
-            <p>Supermercadp</p>
+      
 
             <div id="box-category">
                < IconDrinks/> 
+               <p>Bebidas</p>
             </div>
-            <p>Bebidas</p>
+        
 
             <div id="box-category">
                < IconTools/> 
+               <p>Ferramentas</p>
             </div>
-            <p>Ferramentas</p>
+            
 
             <div id="box-category">
                <IconHealth /> 
+               <p>Saúde</p>
             </div>
-            <p>Saúde</p>
+            
 
             <div id="box-category">
                < IconSport/> 
+               <p>Esporte e Fitness</p>
             </div>
-            <p>Esporte e Fitness</p>
+            
 
             <div id="box-category">
                <IconFashion /> 
+               <p>Moda</p>
             </div>
-            <p>Moda</p>
-           
-         
             
-            
-            
-            
-
-           
         </div>
     )
 }

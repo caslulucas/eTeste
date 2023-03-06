@@ -1,47 +1,51 @@
 import "../styles/components/footer.sass"
 import { Logo } from '../Logo'
+import { LogoEconverse } from "../icons/LogoEconverse"
+import { LogoVtex } from "../icons/LogoVtex"
 
 export function Footer () {
     return (
         <div id="footer">
             <div id="Sobre">
-                <h1>Sobre nós</h1>
-                <p>conheça</p>
-                <p>como comprar</p>
-                <p>indicação</p>
+                <h4>Sobre nós</h4>
+                <ul>
+                    <li>conheça</li>
+                    <li>como comprar</li>
+                    <li>indicação e desconto</li>
+                </ul>
             </div>
 
             <div id="info">
-                <h1>informações úteis</h1>
-                <p>fale conosco</p>
-                <p>dúvidas</p>
-                <p>prazos de entrega</p>
-                <p>formas de pagamento</p>
-                <p>política de privacidade</p>
-                <p>troca e devoluções</p>
+                <h4>informações úteis</h4>
+                <ul>
+                    <li>fale conosco</li>
+                    <li>dúvidas</li>
+                    <li>lirazos de entrega</li>
+                    <li>formas de liagamento</li>
+                    <li>liolítica de lirivacidade</li>
+                    <li>troca e devoluções</li>
+                </ul>
             </div>
 
             <div id="pay">
-                <h1>formas de pagamento</h1>
+                <h4>formas de pagamento</h4>
             </div>
 
             <div id="new">
-                <h1>Cadastre-se e receba nossas</h1>
-                <span>novidades e promoçoes</span>
+                <h1>cadastre-se e receba nossas novidades e promoções</h1>
                 <p>Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia lorem ipsum</p>
 
-                <input type="text" />
-                <button>ok</button>
-
+                <input type="email" placeholder="SEU E-MAIL" />
+                <button type="submit">ok</button>
             </div>
-
+{/* 
             <div id="copyright">
                 <p>
                     Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas imagens são de propriedade de seus respectivos donos.  
                     É vedada a reprodução, total ou parcial, de qualquer conteúdo sem expressa autorização.
                 </p>
-                <Logo />
-            </div>
+                <LogoEconverse /> <LogoVtex />
+            </div> */}
         </div>
     )
-}
+} 

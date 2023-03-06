@@ -10,7 +10,7 @@ export function Marks () {
             <h1>Navegue por marcas</h1>
                 
             <div id="logo-marks">
-                <Logo className="Logo"/>
+                <Logo/>
             </div>
 
         </div>
